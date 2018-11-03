@@ -1,17 +1,20 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/*
+ * Table of content
+ * 1. Variables
+ * 2. Fonts
+ * 3. Bootstrap components
+ * 4. Current app components
+ */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+// 1. Variables
+@import './variables/bootstrap-setup';
+@import './variables/colors';
 
+// 2. Fonts
 
+// 3. Bootstrap components
+@import '../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+// 4. Current app components
 @import './App';
